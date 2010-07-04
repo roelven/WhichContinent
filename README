@@ -1,0 +1,13 @@
+h2. A MySQL table to map all countries on their respective continents
+
+After searching for a proper API hook somewhere to retrieve the continent of a specific country, I decided to map them in a table myself and use this for my applications.
+
+*example:*
+
+|_. id|_. country_code|_. country|_. continent_code|_. continent|
+|1 |AF | Afghanistan |3 |Asia |
+|2 |AL | Albania |2 |Europe |
+|3 |DZ | Algeria |5 |Africa |
+
+etc.
+
